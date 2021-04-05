@@ -1,0 +1,38 @@
+.illustrationTop {
+    height: 400px;
+    position: absolute;
+   
+}
+
+.illustrationTop img {
+    position: relative;
+    
+   
+}
+
+
+
+#i1 {
+    height: 50%;
+    position: absolute;
+    left: -100px;
+    top: 400px;
+    
+}
+
+#i2 {
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    margin-left: auto;
+
+    position: absolute;
+    left: 200px;
+    bottom: -480px;
+    }
+
+#i3 {
+    width: 450px;
+
+    }
+

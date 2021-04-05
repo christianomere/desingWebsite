@@ -1,0 +1,115 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+a {
+  display: block;
+  color:firebrick;
+  text-decoration: none;
+
+}
+
+.buttonTop {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(180deg, #FFFFFF -16.85%, #099ADA 461.96%);
+  box-shadow: 0px 10px 20px ;color: #65082952;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  transition: 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.buttonTop:hover{
+  transform:scale(1.1, 1.1);
+  box-shadow: 0 20px 30px ;color: #65082952;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1.1;
+
+}
+
+h2 {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  font-weight: 500;
+}
+
+.Hero {
+  margin: 0;
+  position: relative;
+  background-size: cover;
+}
+
+.HeroGroup {
+  height: 577px;
+ 
+  margin: 0;
+  padding: 150px;
+  position: relative;
+}
+
+.HeroGrouptext{
+  width: 400px;
+}
+
+.Hero svg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+
+.Illustrations{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.HeroGroupMiddle{
+  position: relative;
+  padding-top: 40px;
+  left: 20%;
+}
+
+.HeroLogosClients{
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: -40px;
+  justify-items: left;
+  
+}
+
+.HeroLogosClients img{
+  height: 30px;
+}
+
+#top {
+  color: white;
+}
+
+#b1{
+  position:relative;
+  color: #FE5343;
+  text-align: center;
+  font-size: 15px;
+  top: 0.75rem;
+
+}
+
+#h2Green {
+  padding-top: 130px;
+  color: #39FFBB;
+  text-align: center;
+}
+  
